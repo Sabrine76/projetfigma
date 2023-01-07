@@ -1,0 +1,366 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #4d69ff;
+}
+
+.container {
+  /* max-width: 700px;
+  min-width: 500px; */
+  margin-top: 80px;
+  /* border-width: 200px; */
+}
+
+.navbarNav {
+  color: #303437;
+  width: 90px;
+}
+
+.navbar {
+  height: 50px;
+  width: 101%;
+  background-color: #4d4d4d;
+  position: relative;
+}
+
+.liste {
+  background-color: #333333;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.items {
+  margin-right: 80px;
+  color: white;
+}
+
+.btn {
+  display: none;
+}
+
+.Title {
+  margin-right: 55px;
+}
+
+
+
+.fors {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+}
+
+.block {
+  max-width: 80px;
+  min-width: 80px;
+  display: flex;
+}
+
+
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.navbar-expand-lg {
+  padding: 0px;
+  
+}
+
+
+ /* .mot {
+  margin-right: 23px;
+  color: rgb(255, 255, 255);
+  padding-right: 50px;
+  font-family: 'Lato', sans-serif; 
+} */
+
+
+.mot1 {
+  color: #fff;
+  margin-left: 261px;
+  padding-right: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+}
+
+  
+
+.mot2 {
+  color: #fff;
+  margin-right: 23px;
+  padding-right: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+
+}  
+
+.mot3 {
+  color: #fff;
+  margin-right: 23px;
+  padding-right: 50px;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: small;
+
+}  
+
+.mot4 {
+  color: #fff;
+  margin-right: 23px;
+  padding-right: 50px;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: small;
+
+}  
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+
+.recherche {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 5%;
+  background-color: #767676;
+
+}
+
+.div {
+  display: block;
+  position: relative;
+  top: -2px;
+  height: 399px;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1519 399" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(77, 105, 255, 1)" d="M 0 88 C 232.8 88 349.2 294 582 294 L 582 294 L 582 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(77, 105, 255, 1)" d="M 581 294 C 831.4 294 956.6 171 1207 171 L 1207 171 L 1207 0 L 581 0 Z" stroke-width="0"></path> <path fill="rgba(47, 73, 94, 1)" d="M 1206 171 C 1332.8 171 1396.2 310 1523 310 L 1523 310 L 1523 0 L 1206 0 Z" stroke-width="0"></path><path fill="rgba(47, 73, 94, 1)" d="M 1522 310 C 1523.2 310 1517.8 174 1519 174 L 1519 174 L 1519 0 L 1522 0 Z" stroke-width="0"></path></svg>');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 502px) {
+  .div {
+    background-size: contain;
+  }
+}
+
+.wave {
+  background-color: #1b1d6f;
+ d: path("M 0 88 C 232.8 88 349.2 294 582 294 L 582 294 L 582 0 L 0 0 Z");
+  stroke-width: 0;
+}
+
+
+.col-xs-4 {
+  padding: 1%;
+  text-align: center;
+  background: #0e104b9c;
+  border-radius: 23px;
+  width: 214px;
+  margin-right: 8px; 
+  
+}
+
+.favorite {
+  font-weight: bold;
+  color: black;
+  font-size: 13px;
+  margin-bottom: 13px;
+}
+
+.favorite1 {
+  font-weight: bold;
+  color: black;
+  font-size: 13px;
+  margin-bottom: 13px;
+  margin-top: -15px;
+}
+
+.t1 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.t2 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding-left: 159px;
+}
+
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none; 
+  background-image: none;
+  background-image: none; 
+  background-image: none; 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
+  margin-right: -332px;
+}
+
+.carousel-control.left {
+  background-image: none; 
+  background-image: none;
+  background-image: none; 
+  background-image: none; 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif; ;
+}
+
+.test1 {
+
+  margin-left: 11px;
+}
+
+.test2 {
+ 
+  margin-left: 11px;
+}
+
+.test3 {
+ 
+  margin-left: 11px;
+  
+}
+
+.test4 {
+
+  margin-left: 11px;
+}
+
+.test5 {
+
+  margin-left: 11px;
+}
+
+.like {
+  margin-left: 154px;
+  margin-top: -3px;
+  font-size: 20px;
+  color: white;
+}
+
+.row {
+  margin-right: 150px;
+  margin-left: -146px;
+}
+
+.stars {
+  color: #fcd300;
+  margin: auto;
+  margin-left: -59px;
+  padding-right: 59px;
+}
+
+.white {
+  color:white;
+  margin: auto;
+  margin-left: -59px;
+  padding-right: 59px;
+  
+} 
+
+.t3 {
+  color: #fff;
+  margin-top: -15px;
+  margin-right: 15px;
+}
+
+.endstar {
+  margin-right: 62px;
+}
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 38%;
+  border-right: 17px;
+  padding: 9px;
+  height: 12px;
+  border-radius: 6px;
+  outline: none;
+  background-color: #767676;
+  margin-right: -28px;
+  margin-left: -289px;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  background-color: #767676;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap { 
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icones {
+  color: rgb(255, 255, 255);
+  width: 25px;
+  height: 39px;
+  font-size: 19px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  padding-right: 55px;
+}
+
+.fa-light  {
+  margin-left: -116px;
+}
+
+.fa-regular, .far {
+  font-weight: 400;
+  padding-left: 22px;
+}
+
+.loupe {
+  font-style: italic;
+  color: rgb(250 250 250);
+  font-size: 14px;
+  margin-top: 5px;
+  padding-left: 6px;
+}
+
+.img-logo {
+  width:40px;
+  margin-top: -15px;
+}
+
